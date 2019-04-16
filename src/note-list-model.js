@@ -1,7 +1,6 @@
 (function(exports) {
-  function NoteList(note = Note) {
+  function NoteList() {
     this.list = [];
-    this.note = note;
   }
 
   NoteList.prototype.getNotes = function() {
@@ -9,7 +8,8 @@
   }
 
   NoteList.prototype.addNote = function(text) {
-    this.list.push(new this.note(text));
+    this.list.push(new Note(text));
   }
   exports.NoteList = NoteList
 })(this);
+``

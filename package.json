@@ -1,0 +1,22 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "Single page javascript note app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justcallmegoyo/note-app.git"
+  },
+  "author": "Greg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justcallmegoyo/note-app/issues"
+  },
+  "homepage": "https://github.com/justcallmegoyo/note-app#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

@@ -7,11 +7,11 @@
   NoteListView.prototype.returnHTML = function() {
     htmlString = [];
     this.view.list.forEach(function(note){
-      htmlString.push("<li><div>" + note.text + "</div></li>");
+      htmlString.push("<ul><li><div>" + note.text + "</div></li></ul>");
     })
 
     return htmlString.join('');
   }
-  
+
   exports.NoteListView = NoteListView;
 })(this)
